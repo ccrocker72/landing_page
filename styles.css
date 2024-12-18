@@ -1,8 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     font-family: Roboto, sans-serif;
     margin: 0;
-    justify-content: center;
+}
+
+.header {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    gap: 120px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.nav>ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
