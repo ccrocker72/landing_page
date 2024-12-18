@@ -76,3 +76,27 @@ body {
 .hero_right>img {
     width: 350px;
 }
+
+.deck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 100%;
+    gap: 52px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card>img {
+    width: 52px;
+    height: 52px;
+}
