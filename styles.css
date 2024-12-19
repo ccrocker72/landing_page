@@ -82,6 +82,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 0 0 100%;
+    background-color: #F9FAF8;
+}
+
+.deck>h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .cards {
@@ -93,10 +101,20 @@ body {
 }
 
 .card {
-    max-width: 200px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>p {
+    text-align: center;
+    color: #1F2937;
 }
 
 .card>img {
     width: 52px;
     height: 52px;
+    border-radius: 12px;
 }
