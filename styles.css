@@ -84,6 +84,8 @@ body {
     align-items: center;
     flex: 0 0 100%;
     background-color: #F9FAF8;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .deck>h1 {
@@ -117,4 +119,33 @@ body {
     width: 52px;
     height: 52px;
     border-radius: 12px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    margin:0;
+    background-color: #E5E7EB;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 40px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.author {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    flex: 0 0 100%;
+    background-color: #E5E7EB;
+    padding-left: 175px;
+    padding-right: 175px;
+    font-size: 36px;
+    color: #1F2937;
 }
